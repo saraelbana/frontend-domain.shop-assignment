@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
 /*////////////////////////////////////////////////////////////////////////
 Table of Contents:
     1. Global Styles
@@ -17,13 +19,12 @@ font Poppins
 /*////////////////////////
     1. Global Styles
 ////////////////////////*/
-*{
+* {
     font-family: "Poppins", sans-serif;
     margin: 0;
     font-size: 10px;
     text-align: center;
-    /*box-sizing: border-box;*/
-    /*font-family: "Poppins";*/
+    box-sizing: border-box;
 }
 
 
@@ -31,44 +32,40 @@ font Poppins
     2. Typography
 ////////////////////////*/
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
-
-
 
 /*////////////////////////
     3. Areas
 ////////////////////////*/
 
-dev{
+.dev {
+    border-style: dotted;
     border-color: red;
-    border: 50px;
+    border: 80px;
 }
 
 /*///////////// 3.1 Header /////////////*/
-.header-style{
-
-background-image: url("/assets/images/mountains.jpg");
+.header-style {
+    background-image: url("/assets/images/mountains.jpg");
     background-size: 100%;
     height: 500px;
 }
 
-.header-elements{
-    /*text-align: center;*/
-    /*margin: 200px 200px 200px 200px;*/
+.header-elements {
 }
 
-.main-heading{
-    margin-top: 80px;
+.main-heading {
     font-size: 100px;
 }
-
-.header-paragraph{
-    font-size: 10px;
+p{
     font-weight: lighter;
+}
+.header-paragraph {
+    font-size: 10px;
+    /*font-weight: lighter;*/
     margin: 20px 20px 20px 20px;
 }
 
-.domain-input{
+.domain-input {
     text-align: left;
     background-color: transparent;
     border-radius: 25px 0 0 25px;
@@ -78,25 +75,55 @@ background-image: url("/assets/images/mountains.jpg");
     border-right: 0;
 }
 
-.search-button{
+.search-button {
     background-color: #1C2B32;
     color: white;
     border-radius: 0 25px 25px 0;
     width: 250px;
-    height: 54px;
+    height: 50px;
     border: 0;
     margin-left: -3px;
 }
+.main-styling{
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
 /*///////////// 3.2 Testimonial /////////////*/
+h2{
+    font-size: 30px;
+    margin-top: 50px;
+}
+.icons-styling{
+    float: left;
+    height: 50px;
+    width: 50px;
+}
+.testimonials{
+    height: 200px;
+    width: 500px;
+    text-align: center;
+    padding: 20px;
 
-
-
+}
+blockquote , cite{
+    text-align: left;
+}
 /*///////////// 3.3 Support /////////////*/
 
 
-
 /*///////////// 3.4 Faq /////////////*/
-
-
+.fqa-styling  > summary{
+    text-align: left;
+    /*font-weight: lighter;*/
+}
 
 /*///////////// 3.5 Footer /////////////*/
+.copyright{
+    height: 40px;
+    padding: 10px;
+    background-color: #1C2B32; /*1C2B32*/
+    color: white;
+    font-size: 10px;
+    text-align: center;
+}
