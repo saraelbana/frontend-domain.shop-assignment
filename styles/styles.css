@@ -11,11 +11,14 @@ Table of Contents:
         3.4 Faq
         3.5 Footer
 ////////////////////////////////////////////////////////////////////////*/
-/* grijs #899CA0
+/* Colors in Hexas and font name
+
+grijs #899CA0
 donkergroen #1C2B32
+
 font Poppins
+
 */
-/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');*/
 /*////////////////////////
     1. Global Styles
 ////////////////////////*/
@@ -23,10 +26,10 @@ font Poppins
     font-family: "Poppins", sans-serif;
     margin: 0;
     font-size: 10px;
+    font-weight: lighter;
     text-align: center;
     box-sizing: border-box;
 }
-
 
 /*////////////////////////
     2. Typography
@@ -36,90 +39,155 @@ font Poppins
 /*////////////////////////
     3. Areas
 ////////////////////////*/
-
 .dev {
-    border-style: dotted;
+    border-style: groove;
     border-color: red;
     border: 80px;
 }
 
 /*///////////// 3.1 Header /////////////*/
 .header-style {
+    height: 400px;
     background-image: url("/assets/images/mountains.jpg");
-    background-size: 100%;
-    height: 500px;
+    background-position: center;
+    background-size: cover;
 }
 
-.header-elements {
+.header-elements-style {
 }
 
-.main-heading {
-    font-size: 100px;
+.h1-styling {
+    font-weight: bolder;
+    font-size: 80px;
 }
-p{
-    font-weight: lighter;
-}
+
 .header-paragraph {
-    font-size: 10px;
-    /*font-weight: lighter;*/
-    margin: 20px 20px 20px 20px;
+    margin: 20px;
 }
 
 .domain-input {
-    text-align: left;
-    background-color: transparent;
     border-radius: 25px 0 0 25px;
+    border-right: 0;
     width: 250px;
     height: 50px;
+    background-color: transparent;
+    text-align: left;
+    font-weight: bolder;
     padding: 0 20px;
-    border-right: 0;
 }
 
 .search-button {
     background-color: #1C2B32;
-    color: white;
     border-radius: 0 25px 25px 0;
+    border: 0;
     width: 250px;
     height: 50px;
-    border: 0;
+    color: white;
     margin-left: -3px;
 }
-.main-styling{
-    text-align: center;
-    margin-left: 200px;
-    margin-right: 200px;
-}
-/*///////////// 3.2 Testimonial /////////////*/
-h2{
-    font-size: 30px;
-    margin-top: 50px;
-}
-.icons-styling{
-    float: left;
-    height: 50px;
-    width: 50px;
-}
-.testimonials{
-    height: 200px;
-    width: 500px;
-    text-align: center;
-    padding: 20px;
 
+/*///////////// 3.2 Testimonial /////////////*/
+.main-styling {
+    margin-right: 25%;
+    margin-left: 25%;
 }
-blockquote , cite{
+
+h2 {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 25%;
+    margin-left: 25%;
+    border-top: 50px;
+    border-bottom: 50px;
+}
+
+.testimonials-section {
+}
+
+.testimonials {
+    text-align: left;
+    border-radius: 5px 5px 5px 5px;
+    /*border-style: groove;*/
+    box-shadow: 5px 5px 10px grey;
+    margin: 50px;
+    padding: 50px;
+}
+
+.quote-style {
+    vertical-align: baseline;
+    margin-right: 5px;
+}
+
+.icons-styling {
+    vertical-align: middle;
+    float: left;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.quote-style {
     text-align: left;
 }
-/*///////////// 3.3 Support /////////////*/
 
+.citation-style {
+}
+
+/*///////////// 3.3 Support /////////////*/
+.call-center-section {
+}
+
+.call-center-banner {
+    width: 100%;
+    height: 200px;
+    background-image: url("/assets/images/callcenter.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.call-center-section > p {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.call-center-button-style {
+    float: left;
+    background-color: #1C2B32;
+    color: white;
+    border: 0;
+    border-radius: 25px;
+    height: 45px;
+    width: 150px;
+    padding: 2%;
+}
 
 /*///////////// 3.4 Faq /////////////*/
-.fqa-styling  > summary{
+.fqa-section {
+}
+
+.fqa-styling {
+}
+
+.fqa-styling > summary {
+    font-weight: lighter;
     text-align: left;
-    /*font-weight: lighter;*/
+    margin-bottom: 20px;
+}
+
+summary:hover {
+    color: red;
+}
+
+details > p {
+    text-align: left;
+    margin-bottom: 10px;
 }
 
 /*///////////// 3.5 Footer /////////////*/
-.copyright{
+.copyright-paragraph {
     height: 40px;
     padding: 10px;
     background-color: #1C2B32; /*1C2B32*/
